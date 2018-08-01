@@ -3,11 +3,13 @@ import { NgModule } from '@angular/core';
 
 
 import { AppComponent } from './app.component';
+import { GrouppyComponent } from './grouppy/grouppy.component';
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    GrouppyComponent
   ],
   imports: [
     BrowserModule
