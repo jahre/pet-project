@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { GrouppyComponent } from './grouppy/grouppy.component';
 import { ChangedBrieflyComponent } from './changed-briefly/changed-briefly.component';
 import { Feature1Component } from './feature1/feature1.component';
+import { Dev1Component } from './dev1/dev1.component';
 
 
 @NgModule({
@@ -13,7 +14,8 @@ import { Feature1Component } from './feature1/feature1.component';
     AppComponent,
     GrouppyComponent,
     ChangedBrieflyComponent,
-    Feature1Component
+    Feature1Component,
+    Dev1Component
   ],
   imports: [
     BrowserModule
