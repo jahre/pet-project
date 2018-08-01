@@ -4,12 +4,14 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { GrouppyComponent } from './grouppy/grouppy.component';
+import { ChangedBrieflyComponent } from './changed-briefly/changed-briefly.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    GrouppyComponent
+    GrouppyComponent,
+    ChangedBrieflyComponent
   ],
   imports: [
     BrowserModule
